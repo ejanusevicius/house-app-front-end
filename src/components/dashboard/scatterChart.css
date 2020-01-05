@@ -1,0 +1,56 @@
+.scatterChart__container {
+    width: 100%;
+    background-color: white;
+    box-shadow : 3px 3px 10px 1px #00000008;
+    border-radius: 9px;
+}
+
+.scatterChart__wrapper {
+    width: 90%;
+    display: block;
+    margin: 0 auto;
+}
+
+.scatterChart__title {
+    padding: 1.25rem 0rem 0.5rem 0rem;
+    text-align: center;
+    color: #7e819c;
+    font-weight: 600;
+}
+
+.scatterChart__buttonContainer {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 1rem 0;
+    padding-bottom: 2rem;
+}
+
+.scatterChart__button {
+    border: none;
+    border-radius: 9px;
+    font-size: 0.8rem;
+    color: white;
+    padding: 0.5rem 0.65rem;
+    margin: 0 1rem;
+    box-shadow: 0px 0px 9px 1px #00000015;
+    background-color: #967eff;
+    transition: background-color 0.3s;
+}
+
+.scatterChart__button:hover {
+    background-color: #7d5fff;
+}
+
+.scatterChart__button:focus {
+    outline: none;
+}
+
+@media (max-width: 768px) {
+    .scatterChart__button {
+        margin: 0 0.35rem;
+        font-size: 0.55rem;
+        padding: 0.175rem 0.275rem;
+    }
+}

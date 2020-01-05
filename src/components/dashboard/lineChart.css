@@ -1,0 +1,20 @@
+.lineChart__container {
+    width: 100%;
+    background-color: white;
+    box-shadow: 3px 3px 10px 1px #00000008;
+    border-radius: 9px;
+}
+
+
+.lineChart__wrapper {
+    width: 90%;
+    display: block;
+    margin: 0 auto;
+}
+
+.lineChart__title {
+    padding: 1.25rem 0rem;
+    text-align: center;
+    color: #7e819c;
+    font-weight: 600;
+}

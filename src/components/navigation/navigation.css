@@ -1,0 +1,27 @@
+.navigation__container {
+    background-color: #7d5fff;
+    height: 60px;
+
+    position: fixed;
+    top: 0;
+    width: 100%;
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+    z-index: 9999;
+    box-shadow: 0px 1px 12px 1px #00000016;
+}
+
+
+.navigation__box a {
+    color: #e8e3ff;
+    text-decoration: none;
+    margin: 0px 1.25rem;
+}
+
+.navigation__box a:hover {
+    color: #e8e3ff;
+    text-decoration: none;
+}

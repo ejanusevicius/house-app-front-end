@@ -1,0 +1,47 @@
+.distributionChart__container {
+    border-radius: 9px;
+    background-color: white;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 0px 0px 7px 1px #00000008;
+    
+}
+
+.distributionChart__wrapper {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    width: 80%;
+}
+
+
+.distributionChart__title {
+    margin: 0;
+    justify-self: center;
+    margin: 0.725rem 0;
+    font-weight: 600;
+    color: #7e819c;
+}
+
+.distributionChart__toggle {
+    border: none;
+    background-color: #967eff;
+    border-radius: 8px;
+    padding: 0.225rem 0.55rem;
+    font-size: 0.7rem;
+    color: white;
+    font-weight: 600;
+    margin-right: 1.5rem;
+    transition: background-color 0.3s;
+
+}
+
+.distributionChart__toggle:focus {
+    outline: none;
+}
+
+.distributionChart__toggle:hover {
+    background-color: #7d5fff;
+}

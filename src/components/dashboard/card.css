@@ -1,0 +1,37 @@
+.card__container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    background-color: white;
+    box-shadow: 1px 1px 6px 1px #00000009;
+    width: 31%;
+    border-radius: 0.55rem;
+}
+
+.card__box {
+    width: 75%;
+    margin: 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.card__title {
+    font-size: 0.85rem;
+    font-weight: 600;
+    margin: 0 0;
+    color: #5a5a5a;
+}
+
+.card__number {
+    font-size: 1.6rem;
+    font-weight: 400;
+    margin: 1rem 0;
+    color: #909090;
+
+    align-self: flex-start;
+    margin-left: 1.4rem;
+    margin-top: 1rem;
+}
