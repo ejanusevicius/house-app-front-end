@@ -119,7 +119,7 @@ const Dashboard = props => {
             </React.Fragment>
             ) : (
             <div style={{height: "95vh", display: "flex", flexDirection: "column", justifyContent: "center", alignItems: "center", color: "#7e819c", fontFamily: "inherit"}}>
-                <h1 style={{fontSize: "1.5rem", textAlign: "center", textAlign: "center", marginBottom: "1"}}>No data is available, change your filter options!</h1>
+                <h1 style={{fontSize: "1.5rem", textAlign: "center", marginBottom: "1"}}>No data is available, change your filter options!</h1>
                 <NavLink className="dashboard__link" to="/filter">
                             <IconButton type="filter" text="Filter"/>
                 </NavLink>
