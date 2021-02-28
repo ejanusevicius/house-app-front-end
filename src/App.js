@@ -21,7 +21,7 @@ const App = props => {
       props.toggleLoadingState();
       filteredHouseApiCall();
     }
-  }, [props.filterString]);
+  }, [props, filteredHouseApiCall]);
 
   useEffect(() => {
     houseApiCall();
